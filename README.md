@@ -11,7 +11,7 @@
    </a>
 
 
-  <a href="https://linkedin.com/in/Jay Ukarde">
+  <a href="https://linkedin.com/in/jay-ukarde-">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 
