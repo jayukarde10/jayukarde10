@@ -72,14 +72,16 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/jayukarde10/output/main/snake.svg" alt="Snake animation" />
+
 
 ###
-<h2 align="center">📊 Most Used Languages</h2>
+<h2 align="center">📊 GitHub Analytics</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jayukarde10&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=jayukarde10&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jayukarde10&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
 </p>
+
 
 ###
 
