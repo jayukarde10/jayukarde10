@@ -1,9 +1,9 @@
 name: Generate Pacman Animation
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 */12 * * *"
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -13,16 +13,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - uses: abozanona/pacman-contribution-graph@main
+      - name: Generate Pacman SVG
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: jayukarde10
+          output: pacman.svg
 
-      - run: |
-          mv dist/pacman.svg pacman.svg
+      - name: Commit and push pacman.svg
+        run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add pacman.svg
-          git commit -m "update pacman animation" || echo "no changes"
+          git commit -m "Update pacman animation" || echo "No changes"
           git push
