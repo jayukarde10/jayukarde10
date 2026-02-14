@@ -72,7 +72,8 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/jayukarde10/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/jayukarde10/output/main/snake.svg" alt="Snake animation" />
+
 
 ###
 
