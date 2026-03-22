@@ -13,19 +13,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
       - name: Generate Pacman contribution graph
         uses: Platane/snk@v3
         with:
           github_user_name: jayukarde10
-          outputs: pacman.svg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
 
-      - name: Commit and push pacman.svg
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add pacman.svg
-          git commit -m "Add pacman animation" || echo "No changes"
-          git push
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
