@@ -101,6 +101,7 @@
 ## 🟡 Pacman Contribution Graph
 
 <p align="center">
+  
   <img src="https://raw.githubusercontent.com/jayukarde10/jayukarde10/main/pacman.svg">
 </p>
 
