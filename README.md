@@ -34,7 +34,7 @@
 
 ###
 
-<p align="left">👋 I'm Jay Ukarde<br><br>🎓 Computer Science student at APSIT, Mumbai<br>💻 Passionate about Software Development and Problem Solving<br>🚀 I love building real-world projects and continuously improving my technical skills<br><br>👨‍💻 About Me<br><br>🎯 Aspiring Software Developer<br>🧠 Currently improving Java, SQL, and Backend Development<br>🛠️ I enjoy building practical systems like Bank Management Systems<br>📚 Strong interest in Data Structures, System Design, and Linux<br>🎤 Working on improving communication and presentation skills</p>
+<p align="left">👋 I'm Jay Ukarde<br><br>🎓 IT student at APSIT, Mumbai<br>💻 Passionate about Software Development and Problem Solving<br>🚀 I love building real-world projects and continuously improving my technical skills<br><br>👨‍💻 About Me<br><br>🎯 Aspiring Software Developer<br>🧠 Currently improving Java, SQL, and Backend Development<br>🛠️ I enjoy building practical systems like Bank Management Systems<br>📚 Strong interest in Data Structures, System Design, and Linux<br>🎤 Working on improving communication and presentation skills</p>
 
 ###
 
@@ -79,7 +79,7 @@
 ###
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=jayukarde10&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+  <img src="https://streak-stats.demolab.com?user=jayukarde10&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&cache_seconds=0" />
 </div>
 
 ###
